@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+*{transition: all .1s ease-in;}
+
+body {
+    background-color: rgb(55, 164, 214);
+    height: 400px;
+    border: 8px solid rgba(55, 150, 214, 0.986);
+    margin: 0;
+    text-align: center;
+    font: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    }
+
+header 
+{
+    text-align: center;
+    width:250px;
+    max-width: 100%;
+    color: whitesmoke;
+    padding: 0px;
+    margin: auto;
+    font-size: 24px;
+    
+}
+footer 
+{
+    text-align: center;
+    width:250px;
+    max-width: 100%;
+    color: whitesmoke;
+    padding: 0px;
+    margin: auto;
+    font-size: 20px;
+}
+
+ul 
+{
+    margin: 0px; 
+    list-style-type: none; 
+    display:  inline-block;
+    font-size: 0;/*убираем отступы между блоками списка*/
+    /*height: 100px;*/
+  }
+
+  ul:hover{
+    
+    text-decoration: none;
+    background-color: white !important;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity:0.8 !important;
+}   
+
+li:hover{
+   
+    text-decoration: none;
+   /* background-color: gray !important;*/
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity:0.8 !important;
+}   
+
+.container
+{
+    width: 1500px;
+    max-width: 100%;
+    padding: 0 ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ul-block
+{
+    display: inline-block;
+    border: 1px solid white;
+    width: 60%;
+    max-width: 100%;
+    padding: 0 ;
+    margin: 0 auto;
+}
+
+.li1-block
+{
+    display: inline-block;  
+    border: 1px solid white;
+     max-width: 100%;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 0 ;
+}
+.li2-block
+{
+    display: inline-block;  
+    border: 1px solid white;
+     max-width: 100%;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 0 ;
+    width: 25%;
+    
+}
+.li3-block
+{
+    display: inline-block;  
+    border: 1px solid white;
+    max-width: 100%;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 0 ;
+    
+   
+}
+.li4-block
+{
+    display: inline-block;  
+    border: 1px solid white;
+     max-width: 100%;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 0 ;
+    width:100%;
+}
